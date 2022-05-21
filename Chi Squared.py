@@ -15,5 +15,5 @@ test_statistic=sum_of_difs_squared/expected_value
 print("Expected value:",expected_value)
 print("Sum of the differences squared:",sum_of_difs_squared)
 print("Test statistic:",round(test_statistic,4),"(4.d.p)")
-
+#I need to create a 2d array to find the critical value.
 
