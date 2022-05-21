@@ -9,8 +9,8 @@ def sum_of_dif_O_E_squared(list_of_numbers,length,expected_value):
     
 list_of_numbers=[12,15,43,63,11,34,0.234,0.00231,0.0000004]
 length=len(list_of_numbers)
-expected_value=sum(list_of_numbers)/len(list_of_numbers)
-sum_of_difs_squared=sum_of_dif_O_E_squared(list_of_numbers,length,expected_value) #Expected value is the mean value at all plots.
+expected_value=sum(list_of_numbers)/len(list_of_numbers) #Expected value is the mean value at all plots.
+sum_of_difs_squared=sum_of_dif_O_E_squared(list_of_numbers,length,expected_value) 
 test_statistic=sum_of_difs_squared/expected_value
 print("Expected value:",expected_value)
 print("Sum of the differences squared:",sum_of_difs_squared)
